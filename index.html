@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="costum.css">
+</head>
+<body >
+    <main class="h-screen w-full flex justify-center items-center bg-slate-900">
+        <!-- container -->
+    <div class="bg-white w-5/12 py-6 rounded-xl">
+        <div class="flex justify-between items-center bg-slate-200 h-10 w-full rounded-full pl-3">
+            <input type="text" placeholder="add your task" class="w-full bg-transparent px-2 outline-none" id="inputbox">
+            <button class="text-white font-medium text-xl bg-orange-400 px-6 py-1 rounded-full" onclick="addTask()">
+                Add
+            </button>
+        </div>
+        <div class="px-4 pt-4">
+            <ul class=" font-medium text-lg" id="list"> 
+                <!-- <li class="list relative line-through" >task 1</li> -->
+                <!-- <li class="list relative line-through" >taks 2</li> -->
+                <!-- <li class="list relative " >task 3</li> -->
+            </ul>
+        </div>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
